@@ -1,0 +1,12 @@
+{"_index":"intime-pe-zgpm","_type":"log","_score":1,"_source":{"message":"[ 2017-03-20 16:34:37 ] INFO An Info Message ","tag":"intime.pe.zgpm","time":"2017-03-20T16:34:37Z"}}
+{"_index":"intime-pe-zgpm","_type":"log","_score":1,"_source":{"message":"[ 2017-03-20 16:34:37 ] WARN A Warning Message ","tag":"intime.pe.zgpm","time":"2017-03-20T16:34:37Z"}}
+{"_index":"intime-pe-zgpm","_type":"log","_score":1,"_source":{"message":"[ 2017-03-20 16:34:37 ] ERROR An Error Message ","tag":"intime.pe.zgpm","time":"2017-03-20T16:34:37Z"}}
+{"_index":"intime-pe-zgpm","_type":"log","_score":1,"_source":{"message":"[ 2017-03-20 16:34:37 ] FATAL A Fatal Error Message ","tag":"intime.pe.zgpm","time":"2017-03-20T16:34:37Z"}}
+{"_index":"intime-pe-zgpm","_type":"log","_score":1,"_source":{"message":"[ 2017-03-20 16:34:38 ] INFO An Info Message ","tag":"intime.pe.zgpm","time":"2017-03-20T16:34:38Z"}}
+{"_index":"intime-pe-zgpm","_type":"log","_score":1,"_source":{"message":"[ 2017-03-20 16:34:38 ] WARN A Warning Message ","tag":"intime.pe.zgpm","time":"2017-03-20T16:34:38Z"}}
+{"_index":"intime-pe-zgpm","_type":"log","_score":1,"_source":{"message":"[ 2017-03-20 16:34:38 ] ERROR An Error Message ","tag":"intime.pe.zgpm","time":"2017-03-20T16:34:38Z"}}
+{"_index":"intime-pe-zgpm","_type":"log","_score":1,"_source":{"message":"[ 2017-03-20 16:34:38 ] FATAL A Fatal Error Message ","tag":"intime.pe.zgpm","time":"2017-03-20T16:34:38Z"}}
+{"_index":"intime-pe-zgpm","_type":"log","_score":1,"_source":{"message":"[ 2017-03-20 16:34:39 ] INFO An Info Message ","tag":"intime.pe.zgpm","time":"2017-03-20T16:34:39Z"}}
+{"_index":"intime-pe-zgpm","_type":"log","_score":1,"_source":{"message":"[ 2017-03-20 16:34:39 ] WARN A Warning Message ","tag":"intime.pe.zgpm","time":"2017-03-20T16:34:39Z"}}
+{"_index":"intime-pe-zgpm","_type":"log","_score":1,"_source":{"message":"[ 2017-03-20 16:34:39 ] ERROR An Error Message ","tag":"intime.pe.zgpm","time":"2017-03-20T16:34:39Z"}}
+{"_index":"intime-pe-zgpm","_type":"log","_score":1,"_source":{"message":"[ 2017-03-20 16:34:39 ] FATAL A Fatal Error Message ","tag":"intime.pe.zgpm","time":"2017-03-20T16:34:39Z"}}

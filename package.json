@@ -1,0 +1,40 @@
+{
+  "name": "fl2esd",
+  "description": "Command line utility which converts FluentD format log entries to elasticdump friendly format.",
+  "version": "1.0.0",
+  "tags": [
+    "cli",
+    "util",
+    "tool",
+    "utility"
+  ],
+  "author": {
+    "name": "Tamás Benke",
+    "email": "tombenke@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/tombenke/fl2esd/issues"
+  },
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/tombenke/fl2esd/blob/master/LICENSE"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/tombenke/fl2esd.git"
+  },
+  "bin": {
+    "fl2esd": "./bin/cli.js"
+  },
+  "main": "index",
+  "dependencies": {
+    "commander": "2.9.0",
+    "glob-stream": "^6.1.0",
+    "mississippi": "^1.3.0",
+    "split": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "lint": "jshint **.js"
+  }
+}
