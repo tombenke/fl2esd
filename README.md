@@ -19,10 +19,10 @@ The following figure demonstrates this scenario:
 
 In order to execute the whole scenario, and run all the examples, you need to install the following programs:
 
-- [docker-compose](https://docs.docker.com/compose/gettingstarted/)
-- [s3cmd](http://s3tools.org/s3cmd)
+- [`docker-compose`](https://docs.docker.com/compose/gettingstarted/)
+- [`s3cmd`](http://s3tools.org/s3cmd)
 - [`elasticdump`](https://www.npmjs.com/package/elasticdump)
-- [fl2esd](https://github.com/tombenke/fl2esd)
+- [`fl2esd`](https://github.com/tombenke/fl2esd)
 
 When you download the contents of the buckets, those are usually organized into directories, 
 where each directory may contain zero or many files, and each file may contain one or more lines.
@@ -113,7 +113,7 @@ or select only a subset:
     Reading lines from : /home/tombenke/topics/fl2esd/lib/fixtures/logs/be/2017031616_0.json
 ```
 
-Note that use the `'` apostrophes when you want to use the double asterisks in the glob expression,
+Note that use the single `'` or double `"` quotes when you want to use the double asterisks in the glob expression,
 in order to prevent the shell to parse it.
 
 
