@@ -3,19 +3,26 @@ fl2esd
 
 ## About
 
-This is a utility that converts FluentD log to `elasticdump` format.
+This is a utility that converts [fluentd](http://www.fluentd.org/) log to [`elasticdump`](https://www.npmjs.com/package/elasticdump) format.
 
 This simple tool can be useful, when you want to analyze log entries with 
-[ElasticSearch](https://www.elastic.co/)/[Kibana](https://www.elastic.co/products/kibana) that have been collected via FluentD,
+[ElasticSearch](https://www.elastic.co/)/[Kibana](https://www.elastic.co/products/kibana) that have been collected via [fluentd](http://www.fluentd.org/),
 and not directly forwarded to the ElasticSearch database, but stored in an intermediate place.
 
-For example, a typical scenario, when the log entries are stored in Amazon S3 buckets (or [minio](https://github.com/minio/mc)) buckets,
+For example, a typical scenario, when the log entries are stored in Amazon S3 buckets (or [minio](https://github.com/minio)) buckets,
 and later downloaded with the [`s3cmd`](http://s3tools.org/s3cmd) utility to the local drive for further analysis.
 This analysis can be a direct insight into the log files and/or a deeper analysis via the analytics tools.
 
 The following figure demonstrates this scenario:
 
 ![Local EFK stack](docs/local_EFK_stack.png)
+
+In order to execute the whole scenario, and run all the examples, you need to install the following programs:
+
+- [docker-compose](https://docs.docker.com/compose/gettingstarted/)
+- [s3cmd](http://s3tools.org/s3cmd)
+- [`elasticdump`](https://www.npmjs.com/package/elasticdump)
+- [fl2esd](https://github.com/tombenke/fl2esd)
 
 When you download the contents of the buckets, those are usually organized into directories, 
 where each directory may contain zero or many files, and each file may contain one or more lines.
@@ -32,8 +39,8 @@ The format of the files, that hold log entries is the following:
 - The line has no comma separator at the end.
 
 Usually you can upload the content of the log files onto the ElasticSearch server,
-using the [elasticdump](https://www.npmjs.com/package/elasticdump) utility,
-however it requires a specific format, that is not the one FluentD produces.
+using the [`elasticdump`](https://www.npmjs.com/package/elasticdump) utility,
+however it requires a specific format, that is not the one [fluentd](http://www.fluentd.org/) produces.
 
 Here comes `fl2esd` into picture, that makes this conversion on the selected set of log files.
 
@@ -72,7 +79,6 @@ Run the install command:
 
 The `--input <path>` defines the set of files, the utility should convert.
 The `<path>` is a glob expression (read more about it in [the Glob Primer](https://github.com/isaacs/node-glob#glob-primer)).
-
 
 In case you use the `--check` switch, the utility will list the name of the files, that match with the `<path>` expression,
 and does no conversion.
@@ -164,11 +170,12 @@ if the ElasticSearch server is available:
 
 ## References
 
+- [fluentd](http://www.fluentd.org/)
 - [s3cmd](http://s3tools.org/s3cmd)
 - [elasticdump](https://www.npmjs.com/package/elasticdump)
 - [ElasticSearch](https://www.elastic.co/)
 - [Kibana](https://www.elastic.co/products/kibana)
-- [minio](https://github.com/minio/mc)
+- [minio](https://github.com/minio)
 - [Get started with Docker Compose](https://docs.docker.com/compose/gettingstarted/)
 - [Docker Logging via EFK (Elasticsearch + Fluentd + Kibana) Stack with Docker Compose](http://docs.fluentd.org/v0.12/articles/docker-logging-efk-compose)
 
