@@ -1,0 +1,12 @@
+2017-03-20T16:34:37Z	testapp.log4r	{"message":"[ 2017-03-20 16:34:37 ] INFO An Info Message ","tag":"testapp.log4r","time":"2017-03-20T16:34:37Z"}
+2017-03-20T16:34:37Z	testapp.log4r	{"message":"[ 2017-03-20 16:34:37 ] WARN A Warning Message ","tag":"testapp.log4r","time":"2017-03-20T16:34:37Z"}
+2017-03-20T16:34:37Z	testapp.log4r	{"message":"[ 2017-03-20 16:34:37 ] ERROR An Error Message ","tag":"testapp.log4r","time":"2017-03-20T16:34:37Z"}
+2017-03-20T16:34:37Z	testapp.log4r	{"message":"[ 2017-03-20 16:34:37 ] FATAL A Fatal Error Message ","tag":"testapp.log4r","time":"2017-03-20T16:34:37Z"}
+2017-03-20T16:34:38Z	testapp.log4r	{"message":"[ 2017-03-20 16:34:38 ] INFO An Info Message ","tag":"testapp.log4r","time":"2017-03-20T16:34:38Z"}
+2017-03-20T16:34:38Z	testapp.log4r	{"message":"[ 2017-03-20 16:34:38 ] WARN A Warning Message ","tag":"testapp.log4r","time":"2017-03-20T16:34:38Z"}
+2017-03-20T16:34:38Z	testapp.log4r	{"message":"[ 2017-03-20 16:34:38 ] ERROR An Error Message ","tag":"testapp.log4r","time":"2017-03-20T16:34:38Z"}
+2017-03-20T16:34:38Z	testapp.log4r	{"message":"[ 2017-03-20 16:34:38 ] FATAL A Fatal Error Message ","tag":"testapp.log4r","time":"2017-03-20T16:34:38Z"}
+2017-03-20T16:34:39Z	testapp.log4r	{"message":"[ 2017-03-20 16:34:39 ] INFO An Info Message ","tag":"testapp.log4r","time":"2017-03-20T16:34:39Z"}
+2017-03-20T16:34:39Z	testapp.log4r	{"message":"[ 2017-03-20 16:34:39 ] WARN A Warning Message ","tag":"testapp.log4r","time":"2017-03-20T16:34:39Z"}
+2017-03-20T16:34:39Z	testapp.log4r	{"message":"[ 2017-03-20 16:34:39 ] ERROR An Error Message ","tag":"testapp.log4r","time":"2017-03-20T16:34:39Z"}
+2017-03-20T16:34:39Z	testapp.log4r	{"message":"[ 2017-03-20 16:34:39 ] FATAL A Fatal Error Message ","tag":"testapp.log4r","time":"2017-03-20T16:34:39Z"}
